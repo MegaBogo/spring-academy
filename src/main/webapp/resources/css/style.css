@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6{
+	margin:0px;
+	padding: 0px;
+}
+
+ul{
+	padding: 0px;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:?;
+}
+
+body{
+	color:?;
+}
+
+/* --- 텍스트 -------------------------------- */
+.hidden{
+	display: none;	
+}
+
+.decoration-none{
+	text-decoration: none;
+}
+
+.decoration-underline{
+	text-decoration: underline;
+}
+
+/* --- 색상 / 배경색상 -------------------------------- */
+
+
+.bg-white{
+	background: #fff;
+}
+
+.bg-gray{
+	background: #7f7f7f;
+}
+
+.bg-light-gray{
+	
+}
+
+.bg-deco-gray{
+	
+}
+
+.bg-deco-dark{
+	
+}
+
+.bg-dark{
+	
+}
+/* --- 레이아웃 -------------------------------- */
+.flex{
+	display: flex;
+}
+
+.flex.flex-row{
+	flex-direction: row;
+}
+
+.flex.flex-column{
+	flex-direction: column;
+}
+
+.flex-item-push{
+	margin-left: auto;
+}
+
+
+/* --- 버튼 / 입력 컨트롤 -------------------------------- */
+
+.btn{
+	display:inline-block;
+	width:24px;
+	height: 24px;
+	overflow: hidden;
+	text-indent: -999px;
+	border: 0px;
+	padding: 0px;
+}
+
+.btn-hamburger{
+	background: url("../../resources/images/icon-set.png") no-repeat 0px 0px;
+}
+
+.btn-primary{
+	
+}
+
+.btn-cancel{
+	
+}
+
+.btn-notice{
+	
+}
+
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+@media screen 
+and (min-width:600px){
+	.btn-md-hamburger{
+		width:48px;
+		height: 48px;
+		background: url("../../resources/images/icon-set.png") no-repeat 0px -24px;
+	}
+		
+	.show-md-block{
+		display: block;
+	}
+}
+
+@media screen 
+and (min-width:1000px){
+	.btn-lg-hamburger{
+		width:48px;
+		height: 48px;
+		background: url("../../resources/images/icon-set.png") no-repeat 0px -24px;
+	}
+		
+	.show-lg-block{
+		display: block;
+	}
+}
+
