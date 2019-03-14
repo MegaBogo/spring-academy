@@ -31,9 +31,9 @@ public class ServiceContextConfig{
 		
 		/* DB 설정 */
 		dataSource.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		dataSource.setUrl("jdbc:sqlserver://211.238.142.251:1433;databaseName=lecture");
-		dataSource.setUsername("sist");
-		dataSource.setPassword("dclass");
+		dataSource.setUrl("jdbc:sqlserver://*;databaseName=*");
+		dataSource.setUsername("*");
+		dataSource.setPassword("*");
 		
 		dataSource.setRemoveAbandoned(true);
 		dataSource.setInitialSize(20);
